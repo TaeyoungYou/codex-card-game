@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codex Card Game</title>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="board-toolbar">
+        <div id="flip-count" class="board-counter" aria-live="polite"></div>
+        <button id="reset-game-button" class="board-reset" type="button">Reset</button>
+      </div>
+      <main class="board">
+        <div id="memory-board" class="memory-grid"></div>
+      </main>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
